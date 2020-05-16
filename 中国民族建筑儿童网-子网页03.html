@@ -1,0 +1,337 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>知识问答小版块</title>
+	<style>
+		<!--
+	/*====导航栏不动部分====*/
+			/*头部*/
+			header{width:83%;
+					margin-left:110px;
+					margin-top:-10px;
+					background-color:#B6DBC6}/*备用背景（图片背景无法正常显示时运用）*/
+		
+			/*导航栏*/
+			nav{padding-top:20px;
+				background-image:url( img/201818340406-huangyuxuan-201818340407-jiazhongqi-06005.png);
+				height:65px}/*图片背景*/
+			ul{list-style-type:none;
+				margin-left:240px;
+				margin-top:3px;
+				width:70%}
+			li{float:left;
+				margin-left:60px}
+			ul li a{text-decoration:none;
+				color:#FFFFFF;
+				font-family:Heiti;
+				font-size:18px;
+				display:block;border:2px solid #FFFFFF;
+				border-radius:30px;
+				padding-right:10px;
+				padding-left:10px;
+				padding-top:4px;
+				padding-bottom: 4px}
+		.background{background-color: rgba(255,255,255,0.2);
+					border-radius:30px;
+					border: none}
+		
+			a:hover{color:#507962}/*鼠标放置变色*/
+			div a{text-decoration:none;
+				color:#FFFFFF;
+				font-family:Heiti;
+				font-size:18px;
+				display:block;}
+		
+		/*返回上页*/
+			.return{float:left;
+				margin-left:160px;
+				margin-top:26px}
+		
+			/*logo*/
+			.logo{float:left;
+				margin-left:-220px;
+				margin-top:13px}
+		
+		/*标题框*/
+		.title{text-align:center;
+				background-color:#B6DBC6;
+				color:#FFFFFF;
+				padding-top:50px;
+				padding-bottom:150px;
+				line-height:70px;
+				letter-spacing:8px}
+		h1{font-size:60px}/*大标题*/
+		h2{font-size:30px;
+			border:1.8px solid #FFFFFF;
+			width:31%;
+			margin-left:590px}/*小标题*/
+
+		.decoration{float:left;margin-left:0px;margin-top:1px}
+/*导航栏不动部分结束*/
+		
+		main{width:83%;
+			margin-left:110px;
+			font-family:Heiti;
+			letter-spacing:1.5px;
+			line-height:2.5}
+		
+		.lastLe{width:85%;margin-left:90px;margin-top:110px;margin-bottom:50px}
+		article{width:85%;margin-left:90px;margin-top:80px;margin-bottom:100px}
+		
+		.secondHring{height:10px;
+					border:none;
+					border-top:3px solid #FAD27E;
+					margin-top:60px}/*第一条水平分割线*/
+
+		.letter{width:83%;
+				margin-left:110px;
+				font-size:17.1px;
+				width: 80%}/*信件*/
+		.oneQuestion{border:solid #FAD27E;
+					width:30%;
+					padding:30px;padding-bottom:5px;
+					border-radius:35px;margin-left:640px}/*第一、三个问题*/
+		
+		.questionTitle{float:left;
+						font-size:21px;
+						margin-left:100px;
+						background-color:#FCEBC7;
+						margin-top:-60px;
+						padding-left:15px;
+						padding-right:15px;
+						border-radius:30px}/*第一、三个问题标题*/
+		
+		.onearticlePicture{float:left;
+							margin-left:160px;
+							margin-top:-430px}/*图片一、三*/
+		
+		
+		.twoQuestion{border:solid #FAD27E;
+					width:30%;
+					padding:30px;padding-bottom:5px;
+					border-radius:35px;margin-left:130px}/*第二、四个问题*/
+		
+		.twoquestionTitle{float:left;
+						font-size:21px;
+						margin-left:100px;
+						background-color:#FCEBC7;
+						margin-top:-60px;
+						padding-left:15px;
+						padding-right:15px;
+						border-radius:30px;
+						margin-left:108px}/*第二、四个问题标题*/
+		
+		.twoarticlePicture{float:left;
+							margin-left:680px;
+							margin-top:-450px}/*图片二、四*/
+		
+		 div p a{text-decoration:none;
+				color:#000000;
+				font-family:Heiti;
+				font-size:17.1px;
+				display:block}
+		.answer{background-color:#FCEBC7;
+				border-radius:30px;
+				margin-right:230px;
+				text-align:center}/*答案*/
+		
+		.lastAnswer{margin-left:400px;
+					background-color:#FBE0A6;
+					border-radius:30px;
+					width:30%;
+					text-align:center}/*底部答案完整解析*/
+		
+		aside{width:83%;
+			margin-left:110px;
+			font-family:Heiti;
+			letter-spacing:1.5px;
+			line-height:2.1;font-size:17px}
+		
+		aside p{width:85%;
+			margin-left:90px;
+			margin-top:40px;
+			margin-bottom:65px}
+		
+/*======尾部不动部分======*/
+		footer{width:83%;
+				margin-left:110px;
+				font-family:Heiti;
+				letter-spacing:1.5px;
+				line-height:2.5;
+				background:#B6DBC6;
+				font-family:SimHei;
+				color: #FFFFFF; 
+				font-size:14px; 
+				text-align:center;
+				padding-top:0.5px;
+				padding-bottom:1px}
+		
+			.ending{margin:20px;
+			line-height:2}	
+		
+			/*尾部邮箱链接*/
+			footer p a{list-style-type:none;
+					text-decoration:none;
+					font-family:SimHei;
+					font-size:14px;color:#FFFFFF}
+/*尾部不动部分结束*/
+		-->
+	</style>
+</head>
+
+<body>
+	<header>
+		<!--===返回主页===-->
+		<div class="return">
+			<a href="中国民族建筑儿童网-首页01.html" title="返回上页" target="_self">&lt;&lt;返回上页</a>
+		</div>
+		<!--返回主页结束-->
+		
+		<!--===logo开始===-->
+		<div class="logo">
+			<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06001.png" alt="logo" width="70" height="52">
+		</div>
+		<!--logo结束-->
+		
+		<!--===导航栏部分开始===-->
+		<div>
+			<nav>
+				<ul>
+					<li><a href="中国民族建筑儿童网-首页01.html" title="首页" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首&nbsp;&nbsp;页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="中国民族建筑儿童网-子网页01.html" title="民族建筑小百科" target="_self">民族建筑小百科</a></li>
+					<li><a href="中国民族建筑儿童网-子网页02.html" title="民族建筑资料库" target="_self">民族建筑资料库</a></li>
+					<li class="background"><a href="中国民族建筑儿童网-子网页03.html" title="知识问答小版块" target="_self">知识问答小版块</a></li>
+				</ul>
+			</nav>	
+		</div>
+		<!--导航栏部分结束-->
+		
+		<!--===标题框开始===-->
+		<div class="title">
+			<h1>中国民族建筑知识小问答</h1>
+			<h2>小朋友们准备好了吗</h2>
+			<figure class="decoration">
+			<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06006.png" alt="装饰" width="1248"><!--装饰-->
+			</figure>
+		</div>
+	</header>
+	
+
+	<main>
+	<!--===文章开始===-->
+		<!--===信件开始===-->
+		<div class="lastLetter">
+			<p class="letter">
+			亲爱的小朋友们，<br>
+			众所周知，千百年来全国各民族人民融入一条中华血脉，用勤劳和智慧创造了祖国悠久的历史和灿烂的文化。因为祖国如今的繁荣昌盛，五十六个民族得以团结稳定、和睦相处。通过在网站的浏览学习，相信大家一定学到了不少关于民族建筑的知识，也一定对不同民族的生活有了更多的了解。希望大家能将学到的知识运用到生活中，更加尊重与团结各民族的小伙伴，一起维护祖国五十六个民族一家亲的美好局面。接下来测试一下自己掌握了多少的中国民族建筑知识吧。<br>
+			<b>小提示:回答完所有问题后再查看答案与解析会效果更好哦</b>
+			</p>		
+		</div>
+		<!--信件结束-->
+		
+		<hr class="secondHring"><!--独立部分水平分割线-->
+			
+	<!--===问题开始===-->
+		<!--===第一部分开始===-->
+		<div>
+			<article class="oneQuestion">
+				<h3 class="questionTitle">Question 1</h3>
+				<p>
+					土楼被誉为“东方古城堡”，更能称得上是古代民居建筑中的“航空母舰”，小朋友们知道土楼是我国哪个民族的建筑吗？<br>
+					A.汉族&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.苗族&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;C.瑶族&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;D.土家族
+				</p>
+				<div class="answer">
+					<p><a href="中国民族建筑儿童网-子网页0301.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="onearticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06002.jpg" alt="土楼卡通图片" width="350">
+			</figure>		
+		</div>
+		<!--第一部分结束-->
+
+		<!--===第二部分开始===-->
+		<div>
+			<article class="twoQuestion">
+				<h3 class="twoquestionTitle">Question 2</h3>
+				<p>
+					苗族人民热情好客，吸引了各族人民一同去感受苗族风情，他们是一个非常有自己特色的民族，那以下哪个选项是属于苗族的典型建筑呢？<br>
+					A.蘑菇房&nbsp;&nbsp;&nbsp;&nbsp;B.石板房&nbsp;&nbsp;&nbsp;&nbsp;C.吊脚楼&nbsp;&nbsp;&nbsp;&nbsp;D.土掌房
+				</p>
+				<div class="answer">
+					<p><a href="中国民族建筑儿童网-子网页0301.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="twoarticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06007.jpg" alt="亭子卡通图片" width="380">
+			</figure>		
+		</div>
+		<!--第二部分结束-->
+		
+		<!--===第三部分开始===-->	
+		<div>
+			<article class="oneQuestion">
+				<h3 class="questionTitle">Question 3</h3>
+				<p>
+					宗教对很多民族的建筑环境都产生了很大的影响，伊斯兰教发源于阿拉伯，那小朋友们知道伊斯兰教建筑在哪个民族的建筑中成就最大吗？<br>
+					A.回族&nbsp;&nbsp;&nbsp;&nbsp;B.维吾尔族&nbsp;&nbsp;&nbsp;&nbsp;C.朝鲜族&nbsp;&nbsp;&nbsp;&nbsp;D.布依族
+				</p>
+				<div class="answer">
+					<p><a href="中国民族建筑儿童网-子网页0301.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="onearticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06010.jpg" alt="伊斯兰教建筑卡通图片" width="340">
+			</figure>		
+		</div>
+		<!--第三部分结束-->
+
+		<!--===第四部分开始===-->
+		<div>
+			<article class="twoQuestion">
+				<h3 class="twoquestionTitle">Question 4</h3>
+				<p>
+					蒙古族人民在草原上建造了许多特别的圆形建筑，它们被称为“蒙古包”，那蒙古包的底面为什么是圆形的呢？（多选）<br>
+					A.抗风能力强&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;B.可容纳更多空间<br>
+					C.具有强大的支撑力&nbsp;&nbsp;&nbsp;&nbsp;D.能够防止外来的伤害
+				</p>
+				<div class="answer">
+					<p><a href="中国民族建筑儿童网-子网页0301.html">点击查看答案</a></p>
+				</div>
+			</article>
+			
+			
+			<figure class="twoarticlePicture">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06014.jpg" alt="蒙古包卡通图片" width="370">
+			</figure>		
+		</div>
+		<!--第四部分结束-->	
+	<div>
+		<hr class="secondHring">
+	</div>
+	
+	<div class="lastAnswer">
+		<p><a href="中国民族建筑儿童网-子网页0301.html">点击查看答案与解析</a></p>
+	</div>
+	</main>
+	
+	<aside>
+		<p>小朋友们答对了多少题呢？没有答对也不要灰心，相信大家通过这次的学习一定收获到了更多知识。希望大家能够继续喜欢与了解我们各民族的建筑文化知识，更加热爱中华民族文化！
+		</p>
+	</aside>
+	
+	<footer>
+		<p class="ending">Copyright&copy;黄钰璇&amp;贾仲琪<br>
+							技术支持：Dreamweaver<br>
+			<a href="mailto:374793620@qq.com">联系我们：374793620@qq.com</a>				
+		</p>	
+	</footer>
+</body>
+</html>
