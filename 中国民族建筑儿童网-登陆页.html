@@ -1,0 +1,274 @@
+<!doctype html>
+<html lang="zh">
+<head>
+	<meta charset="utf-8">
+	<title>网站登陆页</title>
+	<style>
+		<!--
+/*===头部部分开始===*/
+			header{width:88%;
+					margin:0 auto;
+					margin-top:-10px;
+					background-color:#BEDBCA}/*备用背景（图片背景无法正常显示时运用）*/
+		
+			/*导航栏*/
+			nav{padding-top:20px;
+				background-image:url(img/201818340406-huangyuxuan-201818340407-jiazhongqi-06005.png);
+				height:65px}/*图片背景*/
+			ul{list-style-type:none;
+				margin-left:15%;
+				margin-top:3px;}
+			li{float:left;
+				margin-left:50px}
+			ul li a{text-decoration:none;
+				color:#FFFFFF;
+				font-family:"Microsoft YaHei";
+				font-size:18px;
+				display:block;
+				border:1.8px solid #FFFFFF;
+				border-radius:30px;
+				padding-right:10px;
+				padding-left:10px;
+				padding-top:4px;
+				padding-bottom: 4px}
+		.background{background-color: rgba(255,255,255,0.2);
+					border-radius:30px;
+					border: none}
+		
+			a:hover{color:#507962}/*鼠标放置变色*/
+			div a{text-decoration:none;
+				color:#FFFFFF;
+				font-family:"Microsoft YaHei";
+				font-size:18px;
+				display:block;}
+		
+			/*logo*/
+			.logo{float:left;
+				margin-left:38px;
+				margin-top:13px}
+/*头部分结束*/
+		
+		/*主要部分*/
+		main{width:88%;
+			margin:0 auto;
+			font-family:"Microsoft YaHei";
+			letter-spacing:1.5px;
+			line-height:2.5;
+			background-color:#BEDBCA;
+			padding-bottom:70px;
+			padding-top:60px}
+
+		
+		/*登陆部分*/
+		.login{margin-right:130px;
+				margin-left:730px;
+				background-color:#CAE0D3;
+				text-decoration: none;
+				box-shadow: 0 0 20px #00000060;
+				border-radius:20px;padding:10px}
+		
+		/*登陆部分标题*/
+		h2{text-align: center;
+			font-size:30px}
+		
+		.oneHring{margin-top:-65px;
+				width:25%;
+				margin-left:20px;
+				border: none;
+				border-top:2px solid #72B38B}
+		.twoHring{margin-top:-10px;
+				width:25%;margin-right:20px;
+				border: none;
+				border-top:2px solid #72B38B}
+		.title{margin-bottom: 30px}
+		
+		/*登陆部分内容*/
+		form p{text-align:left;
+			padding-left:90px}
+		
+		.fourHring{border: none;
+				border-top:1.5px solid #72B38B;
+				width:90%;}/*第四条水平分割线*/
+		
+		.content{border:none;
+			border-radius:10px;
+			height:20px;
+			padding-left:10px;
+			background-color:#F5F9F7}
+		
+		/*性别*/
+		fieldset{border:none;
+			padding-left:85px;}
+		legend{float:left;}
+		
+		/*年龄*/
+
+		select{width:165px;
+			border:none;
+			border-radius:10px;
+			height:21px;
+			padding-left:10px;
+			background-color:#F5F9F7;margin-left:-6px}
+		
+		/*提交、重置*/
+		.button{padding-left:90px;}
+		.submit{background-color:#FFFFFF;
+			border: none;
+			font-size:17px;
+			border-radius:30px;
+			padding:8px;
+			padding-left:20px;
+			padding-right:20px; 
+			margin-bottom:20px;
+			margin-right:40px}
+		.submit:hover{opacity:0.6}/*鼠标放置效果*/
+		.reset:hover{opacity:0.6}/*鼠标放置效果*/
+		.reset{background-color:#FFFFFF;
+				border:none;
+				font-size:17px;
+				border-radius:30px;
+				padding:8px;
+				padding-left:20px;
+				padding-right:20px;}
+		
+		/*第二部分*/
+		.twoPart{float:left;
+			margin-right:180px;
+			margin-top:-500px;
+			padding:50px;
+			text-align:center}
+		
+		.threeHring{border: none;
+			border-top: 2px solid #83BC99;
+			padding-bottom:50px}/*水平分割线*/
+		
+		.return{font-size:25px;
+			background:#E5EFE9;
+			border:none;
+			border-radius:50px;
+			padding-bottom:1px;
+			padding-top:1px;
+			box-shadow: 0 0 4px #F8F5E8;margin-left:30%;margin-right:30%}
+		
+		.return:hover{opacity:0.6}/*鼠标放置效果*/
+		h3{font-size:40px;color:#FFFFFF;line-height:2.5;}
+		main div a{text-decoration:none;
+					font-family:"Microsoft YaHei";
+					color:#000000;}
+		
+/*===尾部固定部分开始===*/
+		footer{width:88%;
+				margin:0 auto;
+				font-family:"Microsoft YaHei";
+				letter-spacing:1.5px;
+				line-height:2.5;
+				background:#AAD1B9;
+				color:hsla(0,0%,0%,1.00); 
+				font-size:14px; 
+				text-align:center;
+				padding-top:1px;
+				padding-bottom:1px}
+		
+			/*尾部邮箱链接*/
+			footer p a{list-style-type:none;
+					text-decoration:none;
+					font-family:"Microsoft YaHei";
+					font-size:14px;
+					color:hsla(0,0%,0%,1.00);}
+/*尾部固定部分结束*/
+
+		-->
+	</style>
+</head>
+
+<body>
+	<header>	
+		<!--===logo开始===-->
+		<div class="logo">
+			<a href="index.html" title="首页" target="_self">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06001.png" alt="logo" width="70" height="52">
+			</a>
+		</div>
+		<!--logo结束-->
+		
+		<!--===导航栏部分开始===-->
+		<div>
+			<nav>
+				<ul>
+					<li class="background"><a href="index.html" title="首页" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首&nbsp;&nbsp;页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="中国民族建筑儿童网-子网页01.html" title="民族建筑小百科" target="_self">民族建筑小百科</a></li>
+					<li><a href="中国民族建筑儿童网-子网页02.html" title="民族建筑资料库" target="_self">民族建筑资料库</a></li>
+					<li><a href="中国民族建筑儿童网-子网页03.html" title="知识问答小版块" target="_self">知识问答小版块</a></li>
+				</ul>
+			</nav>	
+		</div>
+		<!--导航栏部分结束-->
+	</header>
+	
+	<main>
+		<!--===登陆部分开始===-->
+		<form method="post" action="201818340406-huangyuxuan-1003.html" class="login" enctype="multipart/form-data">
+			<div class="title">
+				<h2>欢迎登陆</h2>
+				<hr class="oneHring">
+				<hr class="twoHring">
+			</div>
+			<!--第一项-->
+			<p>
+				<label>账号：<input type="text" name="账号" placeholder="请输入您的账号" required="required" autofocus class="content"/></label>
+			</p>
+			<!--第二项-->		
+			<p>
+				<label>密码：<input type="password" name="数字" placeholder="请输入您的密码" required="required" maxlength="12" class="content"/></label>	
+			</p>
+			<!--第三项-->		
+			<p class="age">
+				<label>年龄：
+					<select name="年龄" size="1" >
+						<option value="年龄" selected>1-10岁</option>
+						<option value="年龄">1-10岁</option>
+						<option value="年龄">11-20岁</option>
+						<option value="年龄">21-30岁</option>
+						<option value="年龄">31-40岁</option>
+						<option value="年龄">41-50岁</option>
+						<option value="年龄">51-60岁</option>
+						<option value="年龄">60岁以上</option>
+				</select>
+				</label>	
+			</p>
+			<!--第四项-->	
+			<fieldset>
+				<legend>性别：</legend>
+				<label><input type="radio" name="性别" value="男" checked class="sex"/>男</label>
+				<label><input type="radio" name="性别" value="女" class="sex"/>女</label>
+			</fieldset>
+		
+			<hr class="fourHring"><!--水平分割线-->
+			
+			<!--提交、重置-->
+			<p class="button">
+				<input type="submit" name="提交" value="提交"  class="submit"/>
+				<input type="reset" name="重置" value="重置" class="reset"/>
+			</p>
+		</form>
+		<!--登陆部分结束-->
+		
+		<!--===第二部分开始===-->
+		<div class="twoPart">
+			<h3>Chinese National Architectue<br>
+			Website For Children
+			</h3>
+			<hr class="threeHring">
+			<a href="index.html" class="return">返&nbsp;回</a>
+		</div>
+		<!--第二部分结束-->
+	</main>
+		
+	<footer>
+		<p class="ending">Copyright&copy;Huang Yuxuan&nbsp;&nbsp;&nbsp;&nbsp;技术支持：Dreamweaver&nbsp;&nbsp;&nbsp;&nbsp;
+			<a href="mailto:374793620@qq.com">联系我们：374793620@qq.com</a>				
+		</p>	
+	</footer>
+</body>
+</html>
+

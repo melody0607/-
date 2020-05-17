@@ -7,26 +7,26 @@
 		<!--
 	/*====导航栏不动部分====*/
 			/*头部*/
-			header{width:83%;
-					margin-left:110px;
+			header{width:88%;
+					margin:0 auto;
 					margin-top:-10px;
 					background-color:#B6DBC6}/*备用背景（图片背景无法正常显示时运用）*/
 		
 			/*导航栏*/
 			nav{padding-top:20px;
-				background-image:url( img/201818340406-huangyuxuan-201818340407-jiazhongqi-06005.png);
+				background-image:url(img/201818340406-huangyuxuan-201818340407-jiazhongqi-06005.png);
 				height:65px}/*图片背景*/
 			ul{list-style-type:none;
-				margin-left:240px;
-				margin-top:3px;
-				width:70%}
+				margin-left:15%;
+				margin-top:3px;}
 			li{float:left;
-				margin-left:60px}
+				margin-left:50px}
 			ul li a{text-decoration:none;
 				color:#FFFFFF;
-				font-family:Heiti;
+				font-family:"Microsoft YaHei";
 				font-size:18px;
-				display:block;border:2px solid #FFFFFF;
+				display:block;
+				border:1.8px solid #FFFFFF;
 				border-radius:30px;
 				padding-right:10px;
 				padding-left:10px;
@@ -35,22 +35,17 @@
 		.background{background-color: rgba(255,255,255,0.2);
 					border-radius:30px;
 					border: none}
-		
-			a:hover{color:#507962}/*鼠标放置变色*/
+			header a:hover{color:#507962}
+			main a:hover{opacity:0.4}/*鼠标放置变色*/
 			div a{text-decoration:none;
 				color:#FFFFFF;
-				font-family:Heiti;
+				font-family:"Microsoft YaHei";
 				font-size:18px;
 				display:block;}
 		
-		/*返回上页*/
-			.return{float:left;
-				margin-left:160px;
-				margin-top:26px}
-		
 			/*logo*/
 			.logo{float:left;
-				margin-left:-220px;
+				margin-left:38px;
 				margin-top:13px}
 		
 		/*标题框*/
@@ -59,20 +54,22 @@
 				color:#FFFFFF;
 				padding-top:50px;
 				padding-bottom:150px;
-				line-height:70px;
-				letter-spacing:8px}
-		h1{font-size:60px}/*大标题*/
-		h2{font-size:30px;
-			border:1.8px solid #FFFFFF;
-			width:31%;
-			margin-left:590px}/*小标题*/
+				line-height:75px;
+				letter-spacing:12px}
+		h1{font-size:70px}/*大标题*/
+		h2{font-size:32px;
+}/*小标题*/
 
-		.decoration{float:left;margin-left:0px;margin-top:1px}
+		.decoration{width:88%;
+					margin:0 auto;
+					margin-top:-150px}
+		
+		.picture{width:100%}
 /*导航栏不动部分结束*/
 		
 		main{width:83%;
 			margin-left:110px;
-			font-family:Heiti;
+			font-family:"Microsoft YaHei";
 			letter-spacing:1.5px;
 			line-height:2.5}
 		
@@ -128,7 +125,7 @@
 		
 		 div p a{text-decoration:none;
 				color:#000000;
-				font-family:Heiti;
+				font-family:"Microsoft YaHei";
 				font-size:17.1px;
 				display:block}
 		.answer{background-color:#FCEBC7;
@@ -144,7 +141,7 @@
 		
 		aside{width:83%;
 			margin-left:110px;
-			font-family:Heiti;
+			font-family:"Microsoft YaHei";
 			letter-spacing:1.5px;
 			line-height:2.1;font-size:17px}
 		
@@ -153,27 +150,24 @@
 			margin-top:40px;
 			margin-bottom:65px}
 		
-/*======尾部不动部分======*/
-		footer{width:83%;
-				margin-left:110px;
-				font-family:Heiti;
+/*===尾部不动部分===*/
+		footer{width:88%;
+				margin:0 auto;
+				font-family:"Microsoft YaHei";
 				letter-spacing:1.5px;
-				line-height:2.5;
 				background:#B6DBC6;
-				font-family:SimHei;
 				color: #FFFFFF; 
-				font-size:14px; 
 				text-align:center;
 				padding-top:0.5px;
 				padding-bottom:1px}
 		
-			.ending{margin:20px;
-			line-height:2}	
+			.ending{line-height:2.5;
+					font-size:14px; }	
 		
 			/*尾部邮箱链接*/
 			footer p a{list-style-type:none;
 					text-decoration:none;
-					font-family:SimHei;
+					font-family:"Microsoft YaHei";
 					font-size:14px;color:#FFFFFF}
 /*尾部不动部分结束*/
 		-->
@@ -181,16 +175,12 @@
 </head>
 
 <body>
-	<header>
-		<!--===返回主页===-->
-		<div class="return">
-			<a href="中国民族建筑儿童网-首页01.html" title="返回上页" target="_self">&lt;&lt;返回上页</a>
-		</div>
-		<!--返回主页结束-->
-		
+	<header>		
 		<!--===logo开始===-->
 		<div class="logo">
-			<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06001.png" alt="logo" width="70" height="52">
+			<a href="index.html" title="首页" target="_self">
+				<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06001.png" alt="logo" width="70" height="52">
+			</a>
 		</div>
 		<!--logo结束-->
 		
@@ -198,7 +188,7 @@
 		<div>
 			<nav>
 				<ul>
-					<li><a href="中国民族建筑儿童网-首页01.html" title="首页" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首&nbsp;&nbsp;页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
+					<li><a href="index.html" title="首页" target="_self">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;首&nbsp;&nbsp;页&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
 					<li><a href="中国民族建筑儿童网-子网页01.html" title="民族建筑小百科" target="_self">民族建筑小百科</a></li>
 					<li><a href="中国民族建筑儿童网-子网页02.html" title="民族建筑资料库" target="_self">民族建筑资料库</a></li>
 					<li class="background"><a href="中国民族建筑儿童网-子网页03.html" title="知识问答小版块" target="_self">知识问答小版块</a></li>
@@ -211,13 +201,12 @@
 		<div class="title">
 			<h1>中国民族建筑知识小问答</h1>
 			<h2>小朋友们准备好了吗</h2>
-			<figure class="decoration">
-			<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06006.png" alt="装饰" width="1248"><!--装饰-->
-			</figure>
-		</div>
 	</header>
 	
-
+	<div class="decoration">
+		<img src="img/201818340406-huangyuxuan-201818340407-jiazhongqi-06006.png" alt="装饰" class="picture"><!--装饰-->
+	</div>
+		
 	<main>
 	<!--===文章开始===-->
 		<!--===信件开始===-->
